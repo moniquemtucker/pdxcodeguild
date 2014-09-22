@@ -4,11 +4,14 @@ import time
 """
 WHO OWES WHO??:
 This program reconciles finances for two people to determine who owes who at the end of a month.
+User will enter the names of the expenses, amounts, and who payed-- the program will assume an even split
+and determine who owes who.
 
 Future enhancements:
-* Allow user to access Expense methods
+* Allow user to access current Expense methods
 * Allow more than 2 people to reconcile finances
-* Ability to determine % of split (i.e. not automatically an even split)
+* Ability to add more than one month of finances at a time
+* Ability for user to decide the % of split (i.e. not automatically an even split)
 * Ability to display entire expenses for the month in a user friendly format
 * Ability to export file of expenses
 * Ability to add category and due date information
@@ -20,7 +23,8 @@ Future enhancements:
 class Expense():
     def __init__(self):
         self.name = (raw_input("Tell me the expense name: ")).lower()
-        self.amount = float(input("Tell me the amount of the " + self.name + " expense: "))
+        self.amount = float(input("Tell me the amount of the " + self.name + " expense "
+                                                                             "(numeric values only-- e.g. 00.00): "))
         self.who_pays = raw_input("Tell me who paid the " + self.name + " expense: ").lower()
 
     category = None
@@ -81,12 +85,6 @@ class Expense():
             "Who pays: ", expense.who_pays.capitalize(), "\n"
 
 
-# g = Expense()
-#g.show_expense(g)
-#g.update_who_pays(g)
-#print g.who_pays
-#print g.get_who_pays(g)
-
 #class object for time period month that calculates
 class Month():
     def __init__(self):
@@ -135,9 +133,12 @@ class Month():
                 if j[2] in self.names_of_persons[0]:
                     person1_total += j[1]
                     self.total_matched_to_person[j[2]] = person1_total
-                if j[2] in self.names_of_persons[1]:
-                    person2_total += j[1]
-                    self.total_matched_to_person[j[2]] = person2_total
+                if len(self.names_of_persons) <= 1:
+                    break
+                else:
+                    if j[2] in self.names_of_persons[1]:
+                        person2_total += j[1]
+                        self.total_matched_to_person[j[2]] = person2_total
         return self.total_matched_to_person
 
     def all_persons(self):
@@ -197,61 +198,12 @@ class Person():
 #main program
 print '\n'
 print '==================================================================================='
-print '                                   WHO OWES WHO??:                                   '
-print '                     A financial reconciler for couples, roommates,                '
-print '                          and anyone who shares finances!                          '
+print '                                   WHO OWES WHO??:                                 '
+print '             A financial tool that reconciles expenses for couples, roommates...   '
+print '                          -- any two people who share finances!                    '
 print '===================================================================================', '\n'
 time.sleep(1)
 p = Person()
 p.reconcile_expenses()
-
-##tests of Month class
-# g = Expense()
-# h = Expense()
-# i = Expense()
-# f = Month()
-# print f.add_expense(g)
-# print f.add_expense(h)
-# print f.add_expense(i)
-# f.get_total_expenses()
-# print f.total
-# f.total_paid('mo')
-# print f.person_total
-# print f.monthly_expenses
-# print f.get_total_expenses()
-
-##tests of Person class
-#m = Person()
-#print m.__dict__
-
-# #test combining person, expense and month
-# m = Person()
-# j = Person()
-# g = Expense()
-# h = Expense()
-# i = Expense()
-# f = Month()
-# f.add_expense(g)
-# f.add_expense(h)
-# f.add_expense(i)
-# f.get_total_expenses()
-# # print f.total
-# f.all_persons()
-# f.total_paid(m.person_name)
-# f.total_paid(j.person_name)
-# # print f.total_matched_to_person
-# # print f.names_of_persons
-# f.calc_who_owes_who()
-# #print f.who_owes_who
-
-#tests of Expense class
-# g.due_date = '09/16/14'
-# g.category = 'test'
-# print(g.due_date)
-# print(g.category)
-# print(g.name)
-# print(g.amount)
-# print(g.who_pays)
-# g = Expense()
-# g.update_who_pays()
-#print g.get_name(g)
+time.sleep(2)
+print("\nThanks for figuring out WHO OWES WHO today!")
