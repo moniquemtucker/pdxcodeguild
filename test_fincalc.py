@@ -1,7 +1,7 @@
 __author__ = 'Monique Tucker'
 
 from fincalc_wc import Expense, Person, Month
-
+#tests for fincalc_wc program
 #tests of Month class
 g = Expense()
 h = Expense()
@@ -59,7 +59,7 @@ print g.get_name(g)
 total_matched_to_person = {'mo': 130.00, 'jo': 1000.00}
 all_persons = ['mo', 'jo']
 #take amount paid. split in half. see which amount is bigger. then subtract accordingly
-#split each and add
+#split each to add
 split_mo = (total_matched_to_person['mo']/2)
 split_jo = (total_matched_to_person['jo']/2)
 
