@@ -133,6 +133,7 @@ def person_sum(**person):
 
 person_sum(person='mo', person='jo')
 
+
 #working code to sum expenses according to the particular person
 def person_sum(person):
     total = 0
