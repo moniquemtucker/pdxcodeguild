@@ -92,7 +92,6 @@ else:
     print "Looks like you paid equal amounts this month!"
 
 monthly_expenses = {'may': [['gas', 45, 'jo'], ['phone', 100, 'mo'], ['gym', 80, 'mo'], ['cable', 150, 'jo']]}
-#payer = 'mo'
 names_of_persons = ['mo', 'jo']
 person_total = 0
 
