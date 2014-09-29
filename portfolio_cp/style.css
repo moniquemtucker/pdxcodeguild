@@ -48,6 +48,7 @@ padding-top: 100px;
 margin: 0 px auto;
 }
 
+/* about page styling */
 .about_me {
 text-align: center;
 padding-top: 20px;
@@ -62,7 +63,7 @@ font-size: 18px;
 }
 
 .social_media {
-padding-top: 10px;
+padding-top: 20px;
 padding-bottom: 10px;
 margin: 0px auto;
 }
@@ -73,6 +74,7 @@ text-align: center;
 padding: 0 px 10px 0px 10px;
 }
 
+/* portfolio page styling*/
 .proj {
 text-align: center;
 margin: 0px auto;
@@ -98,6 +100,7 @@ text-decoration: none;
 font-weight: bold;
 }
 
+/* contact page styling */
 .contact_me h3 {
 font-family: 'Josefin Sans', sans-serif;
 font-size: 20px;
@@ -112,6 +115,7 @@ height: 200px;
 margin-top: 20px;
 }
 
+/* for smaller screens styling */
 @media (max-width: 700px) {
 .navbar li {
 display: block;
