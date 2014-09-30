@@ -45,6 +45,10 @@ margin: 0 px auto;
 }
 
 /* about page styling */
+#about {
+color: #656565;
+}
+
 .about_me {
 padding-top: 20px;
 width: 600px;
@@ -75,6 +79,10 @@ width: 48px;
 }
 
 /* portfolio page styling*/
+#portfolio {
+color: #656565;
+}
+
 .proj {
 margin: 0px auto;
 width: 600px;
@@ -91,6 +99,7 @@ text-align: left;
 font-family: 'Josefin Sans', sans-serif;
 font-size: 18px;
 padding: 10px;
+list-style-type: none;
 }
 
 .proj a {
@@ -100,6 +109,10 @@ font-weight: bold;
 }
 
 /* contact page styling */
+#contact {
+color: #656565;
+}
+
 .contact_me h3 {
 font-family: 'Josefin Sans', sans-serif;
 font-size: 20px;
