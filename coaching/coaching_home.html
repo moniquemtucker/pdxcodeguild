@@ -15,7 +15,6 @@
 
   <!-- font awesome-->
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
   <!-- my custom tweaks for bootstrap-->
   <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
@@ -45,33 +44,73 @@
         <li><a href="#">Why Career + Life Coaching?</a></li>
         <li><a href="#">Fees</a></li>
         <li><a href="#">Blog</a></li>
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
 
     <div class="main"> <!--large main picture-->
-    <p>Uncertain about your career path?</p>
-    <p>Stuck?</p>
-    <p>Try applying the science of positive psychology.</p>
+    <p>Uncertain about your career path / feeling generally stuck?</p>
+    <p id="pp-caption">Try applying the science of positive psychology.</p>
+    <a href="#carousel-example-generic" ><i class="fa fa-chevron-down"></i></a>
     </div>
 
   </div><!-- /.container-fluid -->
 </nav>
+<!--rotating section -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <i class="fa fa-lightbulb-o"></i>
+      <p>Positive psychology is the study of optimal human functioning.</p>
+    </div>
+    <div class="item">
+      <i class="fa fa-university"></i>
+      <p>I studied in a year-long certificate program under Dr. Tal Ben Shahar, who first taught positive psychology at Harvard.</p>
+    </div>
+    <div class="item">
+      <i class="fa fa-book"></i>
+      <p>My practice is based on rigorous research from the field of positive psychology.</p>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
+
 
 <!--how it works section-->
 <div class="how_it_works">
     <h2>HOW IT WORKS</h2>
     <div class="row">
       <div class="col-sm-6 col-md-4">
-        <span class="glyphicon glyphicon-briefcase"></span>
-        <p>1. positive past</p>
+        <i class="fa fa-unlock"></i>
+        <h4>1. positive past</h4>
+        <p>We will work together to examine your past and look for clues into your strengths.</p>
       </div>
       <div class="col-sm-6 col-md-4">
-        <span class="glyphicon glyphicon-globe"></span>
-        <p>2. fantastic future</p>
+        <i class="fa fa-rocket"></i>
+        <h4>2. fantastic future</h4>
+        <p>By focusing on your strengths, I will help you envision your ideal future.</p>
       </div>
       <div class="col-sm-6 col-md-4">
-        <span class="glyphicon glyphicon-wrench"></span>
-        <p>3. concrete commitments</p>
+        <i class="fa fa-wrench"></i>
+        <h4>3. concrete commitments</h4>
+        <p>Then we will create an action plan with small achievable goals.</p>
       </div>
 
     </div>
