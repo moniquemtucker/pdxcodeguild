@@ -1,0 +1,70 @@
+.container-fluid {
+color: white;
+}
+
+.navbar {
+padding-top: 30px;
+height: 500px;
+background: url(http://whatdigitalcamera.media.ipcdigital.co.uk/11133/000000d09/d60d_orh100000w564/-recipe1.jpg)
+no-repeat center center fixed;
+background-size: cover;
+color: white;
+}
+/* website for photo: http://www.whatdigitalcamera.com/techniques/darkroom/printing/259763/black-white-printing-tips.html */
+
+.navbar-header {
+height: 70px;
+margin-bottom: 100px;
+color: white;
+}
+
+.navbar-brand {
+height: 60px;
+font-size: 46px;
+font-family: 'Montserrat', sans-serif;
+color: white;
+}
+
+.navbar-brand a {
+color: white;
+}
+
+.navbar-brand p {
+font-size: 16px;
+padding-top: 15px;
+color: white;
+}
+
+.navbar-right {
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+}
+
+.navbar-default .navbar-brand {
+color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+color: white;
+}
+
+.main {
+font-family: 'Montserrat', sans-serif;
+text-align: left;
+font-size: 30px;
+margin: 0px auto;
+width: 800px;
+}
+
+.how_it_works {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+font-size: 30px;
+color: #5E5E5E;
+margin: 0px auto;
+}
+
+.how_it_works p {
+font-size: 18px;
+padding-top: 10px;
+}
