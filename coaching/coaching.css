@@ -4,14 +4,21 @@ color: white;
 
 .navbar {
 padding-top: 30px;
-height: 800px;
-background: url(http://whatdigitalcamera.media.ipcdigital.co.uk/11133/000000d09/d60d_orh100000w564/-recipe1.jpg)
+height: 100%;
+width: 100%;
+background: url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Favim.com-67906.jpg);
 no-repeat center center fixed;
 background-size: cover;
 color: white;
 margin-bottom: 0px;
 }
-/* website for photo: http://www.whatdigitalcamera.com/techniques/darkroom/printing/259763/black-white-printing-tips.html */
+/* website for landscape photo: http://www.whatdigitalcamera.com/techniques/darkroom/printing/259763/black-white-printing-tips.html
+URL for landscape: url(http://whatdigitalcamera.media.ipcdigital.co.uk/11133/000000d09/d60d_orh100000w564/-recipe1.jpg)
+URL for binoculars: url(http://spotimg.com/wp-content/uploads/2014/04/Black-And-White-Binoculars-Skyline-Photography-2975.jpg)
+http://blueskyphotography.files.wordpress.com/2010/04/mg_3011.jpg
+vintage landscape w/ photo: http://favim.com/image/67906/
+url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Favim.com-67906.jpg)
+*/
 
 
 .navbar-header {
@@ -73,8 +80,13 @@ color: white;
 align: right;
 }
 
+.container-fluid span {
+text-align: right;
+display: inline;
+}
+
 .carousel-inner {
-width: 1200px;
+width: 100%;
 height: 315px;
 text-align: center;
 margin: 0px auto;
@@ -82,7 +94,7 @@ font-family: sans-serif;
 font-size: 30px;
 vertical-align: middle;
 background-color: white;
-padding-top: 30px;
+padding-top: 50px;
 }
 
 .item, .item active {
