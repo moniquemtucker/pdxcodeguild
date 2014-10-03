@@ -16,40 +16,44 @@ var receipt = {
     "chicken": 8.00,
     "soda": 1.00
 };
-var create_meal = function(name) {
-    additional = "y";
-    var meal =[];
-    while (additional === "y") {
-        var item = prompt(name + ", what did you order?");
-        if (item in receipt) {
-            meal.push(item);
-            additional = prompt("Anything else? y/n");
-        }
-        else {
-            alert("That wasn't on the receipt!");
-            create_meal(name);
-        }
-    }
-    return meal;
-};
+
 
 var calculate = function (meal) {
-var num_party = parseInt(prompt("How many people are in your party?"));
-//alert(num_party);
-var all_patrons = [];
-for (var party = 1; party < num_party+1; party++){
-//    var new_patron = [];
-    var name = prompt("Patron number " + party + " what is your name?" );
-    create_meal(name);
-    var tip = prompt(name + ", what percentage will you tip? (Use decimals, like .20) ");
-    var new_patron = [name, meal, tip];
-//    new_patron.push(name, meal, tip);
-    all_patrons.push(new_patron);
+    var num_party = parseInt(prompt("How many people are in your party?"));
+    //alert(num_party);
+    var all_patrons = [];
+    for (var party = 1; party < num_party+1; party++){
+    //    var new_patron = [];
+        var name = prompt("Patron number " + party + " what is your name?" );
+        var new_patron = [name,];
+        var create_meal = function() {
+            additional = "y";
+            var meal =[];
+            while (additional === "y") {
+                var item = prompt(name + ", what did you order?");
+                if (item in receipt) {
+                    meal.push(item);
+                    additional = prompt("Anything else? y/n");
+                }
+                else {
+                    alert("That wasn't on the receipt!");
+                    create_meal();
+                }
+            }
+            new_patron.push(meal);
+//            return meal;
+        };
+        create_meal();
+        var tip = prompt(name + ", what percentage will you tip? (Use decimals, like .20) ");
+//        var new_patron = [name, meal, tip];
+        new_patron.push(tip);
+        all_patrons.push(new_patron);
 }
-alert(all_patrons)
+    alert (all_patrons);
 };
 
 calculate();
+
 
 </script>
 </body>
