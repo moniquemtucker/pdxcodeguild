@@ -11,7 +11,7 @@ var grand_total_for_each = function() {
     var party_of = prompt("How many are in your group? ");
     var subtotal = prompt("What is the subtotal? ");
     var asktip = function () {
-        var tip = prompt("How much of a tip do you want to leave? Enter as a decimal (i.e. 0.20 means 20% tip)");
+        tip = prompt("How much of a tip do you want to leave? Enter as a decimal (i.e. 0.20 means 20% tip)");
         return tip
     };
     var calctotal = function (subtotal, goodtip, partysize) {
@@ -20,7 +20,6 @@ var grand_total_for_each = function() {
     };
 
     var cheapalert = function () {
-        var tip = 0;
         asktip();
         if (tip < 0.15) {
             alert("Don't be so cheap. Try again. Hint at least 0.15.");
@@ -42,7 +41,7 @@ var grand_total_for_each = function() {
     else {
         cheapalert();
     }
-}
+};
 
 grand_total_for_each()
 
