@@ -32,7 +32,7 @@ var calculate = function (meal) {
             while (additional === "y") {
                 var item = prompt(name + ", what did you order?");
                 if (item in receipt) {
-                    meal.push(item);
+                    meal.push(receipt[item]);
                     additional = prompt("Anything else? y/n");
                 }
                 else {
@@ -50,6 +50,11 @@ var calculate = function (meal) {
         all_patrons.push(new_patron);
 }
     alert (all_patrons);
+
+    for (i = 0; i < all_patrons.length; i++){
+        alert(all_patrons[i][0]);
+
+    }
 };
 
 calculate();
