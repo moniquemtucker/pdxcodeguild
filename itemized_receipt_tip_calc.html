@@ -42,15 +42,15 @@ var calculate = function () {
                 }
                 else {
                     alert("That wasn't on the receipt!");
-                    create_meal();
+//                    create_meal();
                 }
             }
             //adds meal to the particular patron's array
             new_patron.push(meal);
-            //asks patron how much they want to tip
-            var tip = prompt(name + ", what percentage will you tip? (Use decimals, like .20) ");
-            //adds tip to the particular patron's array
-            new_patron.push(tip)
+        //asks patron how much they want to tip
+        var tip = prompt(name + ", what percentage will you tip? (Use decimals, like .20) ");
+        //adds tip to the particular patron's array
+        new_patron.push(tip);
             //function that calculates how much the customer owes
             var calc_total = function () {
             var subtotal = 0;
