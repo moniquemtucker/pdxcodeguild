@@ -23,7 +23,7 @@ var grand_total_for_each = function() {
             tip = prompt("How much of a tip do you want to leave? Enter as a decimal (i.e. 0.20 means 20% tip)");
             return tip
         };
-        var calctotal = function () {
+        var calctotal = function (subtotal, tip, party_of) {
             grandtotal = (parseFloat(subtotal) * (1 + parseFloat(tip))) / parseFloat(party_of);
             return grandtotal
         };
@@ -32,17 +32,24 @@ var grand_total_for_each = function() {
             if (tip < 0.15) {
                 alert("Don't be so cheap. Try again. Hint at least 0.15.");
                 asktip();
-                calctotal();
+                calctotal(subtotal, tip, party_of);
                 alert("Each person owes $" + grandtotal.toFixed(2))
             }
             else {
-                calctotal();
+                calctotal(subtotal, tip, party_of);
                 alert("Each person owes $" + grandtotal.toFixed(2))
             }
         };
         if (party_of > 6) {
-            alert("Default tip will be 20%.");
-            calctotal(subtotal, 0.20, party_of);
+            var tip_check = function(){
+                var other_tip = parseFloat(prompt("Minimum tip is 18%. Enter .18 or higher."));
+                if (other_tip < 0.18){
+                    tip_check();
+                }
+                return other_tip;
+                };
+            var large_party_tip = tip_check();
+            calctotal(subtotal, large_party_tip, party_of);
             alert("Each person owes $" + grandtotal.toFixed(2))
         }
         else {
@@ -78,11 +85,17 @@ var grand_total_for_each = function() {
             new_patron.push(meal);
             //asks patron how much they want to tip
             if (party_of > 6) {
-                alert("Default tip will be 20%.");
-                var tip = .20;
-                new_patron.push(tip);}
+            var itemized_tip_check = function(){
+                var other_tip = parseFloat(prompt("Minimum tip is 18%. Enter .18 or higher."));
+                if (other_tip < 0.18){
+                    itemized_tip_check();
+                }
+                return other_tip;
+                };
+            var large_party_tip = itemized_tip_check();
+            new_patron.push(large_party_tip);}
             else{
-                tip = prompt(name + ", what percentage will you tip? (Use decimals, like .20) ");
+                var tip = prompt(name + ", what percentage will you tip? (Use decimals, like .20) ");
                 //adds tip to the particular patron's array
                 new_patron.push(tip);
             }
