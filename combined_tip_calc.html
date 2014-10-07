@@ -2,14 +2,18 @@
 <html>
 <head lang="en">
 <meta charset="UTF-8">
-<title></title>
+<title>Restaurant tip calculator - even split or itemize </title>
 </head>
 <body>
 <script>
+
+//receipt object of items that were purchased at restaurant
 var receipt = {chicken:8.00, soda:1.00, soup:3.00, wine:7.00};
 
+//main function
 var grand_total_for_each = function() {
     alert("Welcome to our tip calculator!");
+    //calculates total receipt amount and collects number of people in party
     var subtotal = 0;
     for (var i in receipt) {
         subtotal += +receipt[i];
@@ -17,16 +21,18 @@ var grand_total_for_each = function() {
     alert("The total bill is $" + subtotal.toFixed(2));
     var party_of = parseInt(prompt("How many are in your group? "));
 
-    //branch to calculate even split
+    //establishes branch to calculate even split
     var calc_even_split = function () {
         var asktip = function () {
             tip = prompt("How much of a tip do you want to leave? Enter as a decimal (i.e. 0.20 means 20% tip)");
             return tip
         };
+        //function calculates the total owed by each at the table
         var calctotal = function (subtotal, tip, party_of) {
             grandtotal = (parseFloat(subtotal) * (1 + parseFloat(tip))) / parseFloat(party_of);
             return grandtotal
         };
+        //function checks to make sure that the table is leaving a respectable tip amount
         var cheapalert = function () {
             asktip();
             if (tip < 0.15) {
@@ -40,6 +46,7 @@ var grand_total_for_each = function() {
                 alert("Each person owes $" + grandtotal.toFixed(2))
             }
         };
+        //initial check to see if party is greater than 6 and needs a minimum gratuity
         if (party_of > 6) {
             var tip_check = function(){
                 var other_tip = parseFloat(prompt("Minimum tip is 18%. Enter .18 or higher."));
@@ -58,8 +65,6 @@ var grand_total_for_each = function() {
     };
 //branch to calculate itemized meal
     var calc_itemized = function () {
-    //finds out how many people are in the meal party
-//    var num_party = party_of;
     //creates array from 1 to n of people in the party
     var all_patrons = [];
     //loop to create an array of all patrons with their name, items of their meal, and how much they want to tip
@@ -68,7 +73,7 @@ var grand_total_for_each = function() {
         var new_patron = [name, ];
         //function to find out which item(s) the patron ordered
         var create_meal = function () {
-            additional = "y";
+            var additional = "y";
             var meal = [];
             while (additional === "y") {
                 var item = prompt(name + ", what did you order?");
@@ -124,8 +129,7 @@ var grand_total_for_each = function() {
     }
 
 };
-
-
+    //function that determines whether the evenly split or itemized branch is taken
     var question = parseInt(prompt("Would you like to (1) evenly split the bill, or (2) pay according to " +
             "what you ordered? Enter 1 or 2."));
     if (question === 1) {
@@ -135,6 +139,8 @@ var grand_total_for_each = function() {
         calc_itemized()
     }
 };
+
+//runs entire program
 grand_total_for_each()
 
 </script>
