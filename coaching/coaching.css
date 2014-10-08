@@ -1,15 +1,15 @@
 .container-fluid {
-color: white;
+    color: white;
 }
 
 .navbar {
-padding-top: 30px;
-height: 100%;
-width: 100%;
-background: url('/coaching/images/vintagelandscape.jpg') no-repeat center center fixed;
-background-size: cover;
-color: white;
-margin-bottom: 0;
+    padding-top: 30px;
+    height: 100%;
+    width: 100%;
+    background: url('/coaching/images/vintagelandscape.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin-bottom: 0;
 }
 /* website for landscape photo: http://www.whatdigitalcamera.com/techniques/darkroom/printing/259763/black-white-printing-tips.html
 URL for landscape: url(http://whatdigitalcamera.media.ipcdigital.co.uk/11133/000000d09/d60d_orh100000w564/-recipe1.jpg)
@@ -20,153 +20,158 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 */
 
 .navbar-header {
-height: 80px;
-color: white;
+    height: 80px;
+    color: white;
 }
 
 .navbar-brand {
-height: 60px;
-font-size: 46px;
-font-family: 'Montserrat', sans-serif;
-color: white;
+    height: 60px;
+    font-size: 46px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 .navbar-brand a {
-color: white;
+    color: white;
 }
 
 .navbar-brand p {
-font-size: 16px;
-padding-top: 15px;
-color: white;
+    font-size: 16px;
+    padding-top: 15px;
+    color: white;
 }
 
 .navbar-right {
-font-family: 'Montserrat', sans-serif;
-font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 .navbar-default .navbar-brand {
-color: white;
+    color: white;
 }
 
 .navbar-default .navbar-nav > li > a {
-color: white;
+    color: white;
 }
 
 #home-schedule {
-text-align: right;
+    text-align: right;
 }
 
 #home-schedule button {
-text-transform: uppercase;
-font-family: 'Lato', sans-serif;
-font-size: 12px;
-font-weight: bold;
-padding: 10px 35px;
-background-image: none;
-border-radius: 0;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 35px;
+    background-image: none;
+    border-radius: 0;
 }
 
+#home-schedule a {
+    color: #5E5E5E;
+}
+
+
 .main {
-font-family: 'Montserrat', sans-serif;
-text-align: center;
-font-size: 75px;
-margin: 0 auto;
-text-transform: uppercase;
-width: 75%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 75px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 75%;
 }
 
 #pp-caption {
-font-size: 40px;
-padding-top: 50px;
-text-transform: none;
+    font-size: 40px;
+    padding-top: 50px;
+    text-transform: none;
 }
 
 .main a {
-margin: 0 auto;
-font-size: 30px;
-padding: 0;
-color: white;
-align: right;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 0;
+    color: white;
+    align: right;
 }
 
 .container-fluid span {
-text-align: right;
-display: inline;
+    text-align: right;
+    display: inline;
 }
 
 .carousel-inner {
-width: 100%;
-height: 315px;
-text-align: center;
-margin: 0 auto;
-font-family: sans-serif;
-font-size: 30px;
-vertical-align: middle;
-background-color: white;
-padding-top: 50px;
+    width: 100%;
+    height: 315px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 30px;
+    vertical-align: middle;
+    background-color: white;
+    padding-top: 50px;
 }
 
 .item, .item active {
-width: 50%;
-margin: 0 auto;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .carousel-indicators li {
-border: 1px solid #A9A9A9;
+    border: 1px solid #A9A9A9;
 }
 
 .carousel-indicators .active {
-background-color: #A9A9A9;
+    background-color: #A9A9A9;
 }
 
 .carousel-control.left, .carousel-control.right {
-background-image: none;
+    background-image: none;
 }
 
 .how_it_works {
-font-family: 'Montserrat', sans-serif;
-text-align: center;
-font-size: 30px;
-background-color: #5E5E5E;
-color: white;
-margin: 0 auto;
-padding-top: 50px;
-padding-bottom: 60px;
-vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background-color: #5E5E5E;
+    color: white;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    vertical-align: middle;
 }
 
 .how_it_works h2 {
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .how_it_works i {
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .how_it_works h4 {
-font-size: 18px;
-padding-top: 10px;
-font-variant: small-caps;
+    font-size: 18px;
+    padding-top: 10px;
+    font-variant: small-caps;
 }
 
 .how_it_works p {
-font-style: italic;
-font-size: 14px;
-margin: 0 auto;
-width: 75%;
+    font-style: italic;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 75%;
 }
 
 #learn-more {
-padding-top: 40px;
+    padding-top: 40px;
 }
 
 #learn-more a {
-color: white;
-font-size: 18px;
-font-weight: bold;
-text-decoration: underline;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /*New page nav bar*/
@@ -176,39 +181,56 @@ color: white;
 }
 
 .desc {
-height: 100%;
-width: 75%;
-text-align: center;
-margin: 0 auto;
-color: #5E5E5E;
-font-family: 'Montserrat', sans-serif;
-padding-top: 40px;
+    height: 100%;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    color: #5E5E5E;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
 }
 
 #steps-row {
-border-bottom: 1px #E6E6E6 solid;
-padding-bottom: 10px;
-margin-bottom: 50px;
+    border-bottom: 1px #E6E6E6 solid;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 #desc-head {
-    font-size: 22px;
-    width: 70%;
+    font-size: 20px;
+    font-style: italic;
     color:  #5E5E5E;
     font-family: sans-serif;
-    font-weight: 300;
-    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
     padding: 30px;
     border-bottom: 1px #E6E6E6 solid;
 }
 
 #steps-head {
-    font-style: italic;
-    font-size: 18px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     text-align: center;
-    font-variant: small-caps;
-    margin-top: 40px;
-    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 60%;
+    color: #5E5E5E;
+    padding: 20px 30px;
+    border: 3px solid #A9A9A9;
+    border-radius: 20px;
+}
+
+#steps-head:hover {
+   background-color: #6AB7A7;
+   color: white;
+   border: 3px solid #6AB7A7;
+   text-decoration: none;
+   }
+
+#steps-head a{
+   color: #5E5E5E;
+   text-decoration: none;
 }
 
 .steps-icons {
@@ -236,13 +258,49 @@ margin-bottom: 50px;
     padding-top: 10px;
 }
 
-/* About me page styling */
-#about-intro {
-height: 100%;
-width: 60%;
-text-align: left;
-margin: 0 auto;
-color: #5E5E5E;
-font-family: 'Montserrat', sans-serif;
-padding-top: 40px;
+.footer {
+    background-color: white;
+    height: 200px;
 }
+
+/* About me page styling */
+.about-container {
+    background-color: #A9A9A9;
+    padding-bottom: 30px;
+}
+
+#headshot {
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+#headshot img{
+    height: 250px;
+    text-align: center;
+    border: 15px white solid;
+    margin-top: 60px;
+}
+
+.about-intro {
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    color: black;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 40px;
+}
+
+.about-intro h2 {
+    font-variant: small-caps;
+}
+
+/* Fees page styling */
+#fees-container {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    width: 75%;
+    margin: 0 auto;
+}
+
