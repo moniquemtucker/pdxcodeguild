@@ -1,3 +1,4 @@
+/*styling for the home page*/
 .container-fluid {
     color: white;
 }
@@ -174,7 +175,13 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     text-decoration: underline;
 }
 
-/*New page nav bar*/
+.footer {
+    background-color: white;
+    height: 200px;
+    color: #5E5E5E;
+}
+
+/* page other than home nav bar*/
 #othernav {
 height: 80px;
 color: white;
@@ -258,14 +265,10 @@ color: white;
     padding-top: 10px;
 }
 
-.footer {
-    background-color: white;
-    height: 200px;
-}
 
 /* About me page styling */
 .about-container {
-    background-color: #A9A9A9;
+    background-color: #5E5E5E;
     padding-bottom: 30px;
 }
 
@@ -286,7 +289,7 @@ color: white;
     width: 60%;
     text-align: left;
     margin: 0 auto;
-    color: black;
+    color: white;
     font-weight: 100;
     font-family: 'Open Sans', sans-serif;
     padding-top: 40px;
