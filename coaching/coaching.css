@@ -179,16 +179,30 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     text-decoration: underline;
 }
 
-.footer {
-    background-color: white;
-    height: 200px;
+.all-footer {
+    background-color: #E6E6E6;
+    height: 170px;
     color: #5E5E5E;
+    font-family: "Montserrat",sans-serif;
+    padding-top: 10px;
+    border-top: 1px solid transparent;
+}
+
+.all-footer h4 {
+    width: 50%;
+    font-variant: small-caps;
+    border-bottom: 1px solid #5E5E5E;
+}
+
+.all-footer p {
+    width: 50%;
+    font-style: italic;
 }
 
 /* page other than home nav bar*/
 #othernav {
-height: 80px;
-color: white;
+    height: 80px;
+    color: white;
 }
 
 .desc {
@@ -277,14 +291,15 @@ color: white;
 }
 
 .about-headline {
-    margin: 0 auto;
     font-style: italic;
     text-align: center;
     padding: 0;
     font-family: 'Droid Sans', Georgia, serif;
     font-weight: bold;
     font-size: 25px;
+    margin-bottom: 20px;
 }
+
 
 #headshot {
     text-align: center;
@@ -299,14 +314,14 @@ color: white;
 }
 
 .about-intro {
-    width: 100%;
-    text-align: left;
+    width: 80%;
+    text-align: justify;
     margin: 0 auto;
     color: white;
     font-family: 'Droid Sans', serif, sans-serif;
     font-size: 14px;
     font-weight: 400;
-    padding-top: 15px;
+    padding-top: 25px;
     font-style: normal;
 }
 
@@ -320,6 +335,7 @@ color: white;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 #fees-intro {
@@ -338,7 +354,7 @@ color: white;
 
 /* class for jQuery hover  */
 .active-fees-plans-head {
-    background-color: #E6E6E6;
+    background-color: #AFB4B2;
     color: #2C3539;
 }
 
@@ -349,7 +365,6 @@ color: white;
     text-align: center;
     border-bottom: 1px solid #E6E6E6;
 }
-
 
 .fees-rate-head h3{
     margin-top: 10px;
@@ -379,5 +394,15 @@ color: white;
     font-size: 14px;
 }
 
+#fees-schedule button {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 35px;
+    background-image: none;
+    border-radius: 0;
+    margin-top: 20px;
+}
 
 
