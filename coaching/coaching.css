@@ -285,41 +285,43 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 
 
 /* About me page styling */
+
 .about-container {
-    background-color: #5E5E5E;
+    background-color: white;
     padding-bottom: 30px;
+    color: #656565;
 }
 
 .about-headline {
     font-style: italic;
     text-align: center;
     padding: 0;
-    font-family: 'Droid Sans', Georgia, serif;
-    font-weight: bold;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: 300;
     font-size: 25px;
-    margin-bottom: 20px;
+    margin: 0 auto;
+    width: 40%;
 }
-
 
 #headshot {
     text-align: center;
     margin: 0 auto;
     vertical-align: middle;
+    padding-bottom: 20px;
 }
 
 #headshot img{
     height: 250px;
-    border: 15px white solid;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .about-intro {
-    width: 80%;
+    width: 58%;
     text-align: justify;
-    margin: 0 auto;
-    color: white;
-    font-family: 'Droid Sans', serif, sans-serif;
-    font-size: 14px;
+    margin-top: 40px;
+    color: #656565;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
     font-weight: 400;
     padding-top: 25px;
     font-style: normal;
@@ -328,6 +330,14 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 .about-intro p {
     padding-bottom: 5px;
     vertical-align: text-top;
+}
+
+#about-column-left {
+    padding-right: 20px;
+}
+
+#about-column-right {
+    padding-left: 20px;
 }
 
 /* Fees page styling */
@@ -341,7 +351,28 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 #fees-intro {
     font-family: 'Montserrat', sans-serif;
     color: #656565;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+#fees-intro h4 {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+#fees-schedule {
+padding-bottom: 15px;
+}
+
+#fees-schedule button {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 35px;
+    background-image: none;
+    border-radius: 0;
+    margin-top: 20px;
 }
 
 .fees-plans {
@@ -381,10 +412,6 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     padding: 20px;
 }
 
-.fees-rate-body p {
-    margin-top: 100px;
-}
-
 .fees-rate-body ul {
     padding: 10px;
 }
@@ -394,15 +421,23 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     font-size: 14px;
 }
 
-#fees-schedule button {
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 10px 35px;
-    background-image: none;
-    border-radius: 0;
-    margin-top: 20px;
+#fees-faqs-container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
 }
 
+#fees-faqs-container h5{
+    text-align: center;
+    font-style: italic;
+    padding: 20px 0;
+}
+
+#fees-faqs-container h4{
+    font-weight: 400;
+}
+
+#fees-faqs-container p {
+    padding-bottom: 10px;
+}
 
