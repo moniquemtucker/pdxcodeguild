@@ -98,7 +98,7 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     font-size: 30px;
     padding: 0;
     color: white;
-    align: right;
+    text-align: right;
 }
 
 .container-fluid span {
@@ -106,8 +106,8 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     display: inline;
 }
 
-.carousel-inner {
-    width: 100%;
+.item, .item.active {
+    width: 50%;
     height: 315px;
     text-align: center;
     margin: 0 auto;
@@ -116,11 +116,6 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     vertical-align: middle;
     background-color: white;
     padding-top: 50px;
-}
-
-.item, .item active {
-    width: 50%;
-    margin: 0 auto;
 }
 
 .carousel-indicators li {
@@ -441,3 +436,21 @@ padding-bottom: 15px;
     padding-bottom: 10px;
 }
 
+/* styling for blog page*/
+.blog-post, .sidebar-module {
+    font-family: 'Montserrat', sans-serif;
+    color: #5E5E5E;
+}
+
+.pager a {
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 27px;
+    width: 140px;
+}
+.sidebar-module {
+    background-color: #F5F5F5;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
