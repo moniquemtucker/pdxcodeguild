@@ -107,7 +107,7 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 }
 
 .item, .item.active {
-    width: 50%;
+    width: 700px;
     height: 315px;
     text-align: center;
     margin: 0 auto;
@@ -142,11 +142,7 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     vertical-align: middle;
 }
 
-.how_it_works h2 {
-    padding-bottom: 20px;
-}
-
-.how_it_works i {
+.how_it_works h2, i {
     padding-bottom: 20px;
 }
 
@@ -163,6 +159,11 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     width: 75%;
 }
 
+/* class for jQuery hover of how it works process */
+.active-home-process-step {
+    font-size: 30px;
+}
+
 #learn-more {
     padding-top: 40px;
 }
@@ -174,6 +175,7 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     text-decoration: underline;
 }
 
+/*styling for footer*/
 .all-footer {
     background-color: #E6E6E6;
     height: 170px;
@@ -194,6 +196,13 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     font-style: italic;
 }
 
+/*styling for active page*/
+#on-this-page {
+    color: #5E5E5E;
+    text-shadow: none;
+    font-weight: bold;
+}
+
 /* page other than home nav bar*/
 #othernav {
     height: 80px;
@@ -207,7 +216,6 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     margin: 0 auto;
     color: #5E5E5E;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 40px;
 }
 
 #steps-row {
@@ -342,22 +350,61 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     margin: 0 auto;
     padding-bottom: 50px;
 }
+/*#fees-intro {*/
+    /*background-color: #656565;*/
+    /*color: white;*/
+    /*padding-bottom: 20px;*/
+    /*padding-top: 15px;*/
+/*}*/
+
+/*#fees-intro h4 {*/
+    /*font-size: 18px;*/
+    /*padding-bottom: 10px;*/
+/*}*/
+
+/*#fees-discount h4 {*/
+    /*margin: 0 auto;*/
+    /*font-size: 20px;*/
+    /*font-weight: bold;*/
+    /*font-style: italic;*/
+    /*padding-top: 10px;*/
+/*}*/
+
+/*#fees-schedule {*/
+/*padding-bottom: 15px;*/
+/*}*/
+
+/*#fees-schedule button {*/
+    /*text-transform: uppercase;*/
+    /*font-family: 'Lato', sans-serif;*/
+    /*font-size: 12px;*/
+    /*font-weight: bold;*/
+    /*padding: 10px 35px;*/
+    /*background-image: none;*/
+    /*border-radius: 0;*/
+    /*margin-top: 20px;*/
+/*}*/
 
 #fees-intro {
-    font-family: 'Montserrat', sans-serif;
     color: #656565;
     padding-bottom: 10px;
     padding-top: 15px;
+    font-style: italic;
 }
 
 #fees-intro h4 {
-    font-size: 14px;
+    font-size: 18px;
     padding-bottom: 10px;
+    font-weight: bold;
 }
 
-#fees-schedule {
-padding-bottom: 15px;
+#fees-discount h4 {
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 #fees-schedule button {
     text-transform: uppercase;
@@ -368,6 +415,25 @@ padding-bottom: 15px;
     background-image: none;
     border-radius: 0;
     margin-top: 20px;
+}
+
+/*#fees-student {*/
+    /*border: 1px solid transparent;*/
+    /*background-color: #F5F5F5;*/
+    /*width: 160px;*/
+    /*height: 160px;*/
+    /*border-radius: 50%;*/
+    /*text-align: center;*/
+    /*font-size: 14px;*/
+    /*vertical-align: middle;*/
+    /*overflow: auto;*/
+/*}*/
+
+#fees-student {
+    font-size: 16px;
+    color: #656565;
+    font-style: italic;
+    padding-top: 10px;
 }
 
 .fees-plans {
@@ -444,10 +510,12 @@ padding-bottom: 15px;
 
 .pager a {
     padding: 10px 20px;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 14px;
+    line-height: 18px;
     width: 140px;
+    margin: 10px 80px;
 }
+
 .sidebar-module {
     background-color: #F5F5F5;
     padding: 15px;
