@@ -3,12 +3,7 @@
  */
 $(document).ready(function(){
 
-//how it works process steps font increases as cursor moves over it
-//    $(".home-process-step").hover(function(){
-//        $(this).toggleClass("active-home-process-step");
-//    });
-
-    //slow scroll from main photo on home to carousel
+    //slow scroll from main photo on home to start of carousel
     function scrollToCarousel(id){
         id = id.replace("link", "");
         $("html, body").animate({
@@ -25,9 +20,5 @@ $(document).ready(function(){
     $(".fees-plans").hover(function(){
         $(this).toggleClass("active-fees-plans-head");
     });
-
-    //to delete
-    var widget = $( ".selector" ).datepicker( "widget" );
-    $( "#datepicker" ).datepicker();
 
 });

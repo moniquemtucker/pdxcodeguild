@@ -488,6 +488,17 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     .home-process-step {
         width: 100%;
     }
+    .home-process-step h4 {
+        margin-top: 0;
+
+    }
+    .home-process-step p {
+        padding-bottom: 15px;
+
+    }
+    .home-process-step i {
+        padding-bottom: 5px;
+    }
 
     /*all pages */
     .all-footer {
@@ -500,13 +511,24 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     .steps-mobile {
         width: 100%;
     }
+    .steps-icon i {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .steps-process {
+        margin-top: 5px;
+    }
 
     /*about page */
     #about-column-left, #about-column-right {
         width: 100%;
     }
-    #headshot {
-        width: 70%;
+    #about-column-left {
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    #headshot img{
+        height: 200px;
     }
     .about-intro {
         width: 75%;
@@ -514,8 +536,32 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 
     /* fees page */
     .fees-plans {
-        width: 100%;
+        width: 90%;
         height: 100%;
     }
-
+}
+/*responsive design for max-width 390px */
+@media (max-width: 390px) {
+    /* home page */
+    .navbar-brand {
+        height: 80px;
+        font-size: 30px;
+    }
+    .navbar-brand p {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .main {
+        font-size: 40px;
+    }
+    #pp-caption {
+        font-size: 30px;
+    }
+    .item, .item.active {
+        font-size: 16px;
+    }
+    /* about page */
+    #headshot img {
+        height: 150px;
+    }
 }
