@@ -26,13 +26,9 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 }
 
 .navbar-brand {
-    height: 60px;
+    height: 100px;
     font-size: 46px;
     font-family: 'Montserrat', sans-serif;
-    color: white;
-}
-
-.navbar-brand a {
     color: white;
 }
 
@@ -42,9 +38,11 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     color: white;
 }
 
-.navbar-brand p:hover {
-   color: #656565;
-   }
+.navbar-brand p:hover, .navbar-brand p:focus {
+   text-decoration: none;
+   color: #5e5e5e;
+   background-color: transparent;
+}
 
 .navbar-right {
     font-family: 'Montserrat', sans-serif;
@@ -107,7 +105,7 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 }
 
 .item, .item.active {
-    width: 700px;
+    width: 50%;
     height: 315px;
     text-align: center;
     margin: 0 auto;
@@ -165,7 +163,8 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 }
 
 #learn-more {
-    padding-top: 40px;
+    padding-top: 30px;
+    margin-top: 10px;
 }
 
 #learn-more a {
@@ -198,9 +197,10 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 
 /*styling for active page*/
 #on-this-page {
-    color: #5E5E5E;
+    color: #5e5e5e;
     text-shadow: none;
     font-weight: bold;
+    background-color: transparent;
 }
 
 /* page other than home nav bar*/
@@ -218,12 +218,10 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     font-family: 'Montserrat', sans-serif;
 }
 
-#steps-row {
-    border-bottom: 1px #E6E6E6 solid;
-    padding-bottom: 10px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+#steps-intro h1 {
+    font-size: 24px;
 }
+
 
 #desc-head {
     font-size: 20px;
@@ -259,6 +257,14 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 #steps-head a{
    color: #5E5E5E;
    text-decoration: none;
+}
+
+#steps-row {
+    border-bottom: 1px #E6E6E6 solid;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 95%;
 }
 
 .steps-icons {
@@ -319,7 +325,7 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 }
 
 .about-intro {
-    width: 58%;
+    width: 65%;
     text-align: justify;
     margin-top: 40px;
     color: #656565;
@@ -350,40 +356,6 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     margin: 0 auto;
     padding-bottom: 50px;
 }
-/*#fees-intro {*/
-    /*background-color: #656565;*/
-    /*color: white;*/
-    /*padding-bottom: 20px;*/
-    /*padding-top: 15px;*/
-/*}*/
-
-/*#fees-intro h4 {*/
-    /*font-size: 18px;*/
-    /*padding-bottom: 10px;*/
-/*}*/
-
-/*#fees-discount h4 {*/
-    /*margin: 0 auto;*/
-    /*font-size: 20px;*/
-    /*font-weight: bold;*/
-    /*font-style: italic;*/
-    /*padding-top: 10px;*/
-/*}*/
-
-/*#fees-schedule {*/
-/*padding-bottom: 15px;*/
-/*}*/
-
-/*#fees-schedule button {*/
-    /*text-transform: uppercase;*/
-    /*font-family: 'Lato', sans-serif;*/
-    /*font-size: 12px;*/
-    /*font-weight: bold;*/
-    /*padding: 10px 35px;*/
-    /*background-image: none;*/
-    /*border-radius: 0;*/
-    /*margin-top: 20px;*/
-/*}*/
 
 #fees-intro {
     color: #656565;
@@ -395,7 +367,7 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
 #fees-intro h4 {
     font-size: 18px;
     padding-bottom: 10px;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #fees-discount h4 {
@@ -415,25 +387,6 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     background-image: none;
     border-radius: 0;
     margin-top: 20px;
-}
-
-/*#fees-student {*/
-    /*border: 1px solid transparent;*/
-    /*background-color: #F5F5F5;*/
-    /*width: 160px;*/
-    /*height: 160px;*/
-    /*border-radius: 50%;*/
-    /*text-align: center;*/
-    /*font-size: 14px;*/
-    /*vertical-align: middle;*/
-    /*overflow: auto;*/
-/*}*/
-
-#fees-student {
-    font-size: 16px;
-    color: #656565;
-    font-style: italic;
-    padding-top: 10px;
 }
 
 .fees-plans {
@@ -482,25 +435,6 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     font-size: 14px;
 }
 
-#fees-faqs-container {
-    width: 75%;
-    margin: 0 auto;
-    text-align: left;
-}
-
-#fees-faqs-container h5{
-    text-align: center;
-    font-style: italic;
-    padding: 20px 0;
-}
-
-#fees-faqs-container h4{
-    font-weight: 400;
-}
-
-#fees-faqs-container p {
-    padding-bottom: 10px;
-}
 
 /* styling for blog page*/
 .blog-post, .sidebar-module {
@@ -508,12 +442,17 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     color: #5E5E5E;
 }
 
+.pager li > a {
+    border: none;
+    border-radius: 0;
+}
+
 .pager a {
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     width: 140px;
-    margin: 10px 80px;
+    /*margin: 10px 80px;*/
 }
 
 .sidebar-module {
@@ -521,4 +460,62 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     padding: 15px;
     border-radius: 4px;
     margin-top: 15px;
+}
+
+/*scheduling page*/
+
+#scheduling-calendar {
+    margin: 60px;
+    text-align: center;
+    width: 50%
+}
+
+/* responsive design - for smaller screens styling */
+@media (max-width: 1005px) {
+    /*home page */
+    .main {
+        font-size: 50px;
+    }
+    .navbar-right {
+        font-size: 14px;
+    }
+    #pp-caption {
+        font-size: 30px;
+    }
+    .item, .item.active {
+        font-size: 23px;
+    }
+    .home-process-step {
+        width: 100%;
+    }
+
+    /*all pages */
+    .all-footer {
+        width: 100%;
+        background-color: #E6E6E6;
+        height: 100%;
+    }
+
+    /*career + life coaching page */
+    .steps-mobile {
+        width: 100%;
+    }
+
+    /*about page */
+    #about-column-left, #about-column-right {
+        width: 100%;
+    }
+    #headshot {
+        width: 70%;
+    }
+    .about-intro {
+        width: 75%;
+    }
+
+    /* fees page */
+    .fees-plans {
+        width: 100%;
+        height: 100%;
+    }
+
 }
