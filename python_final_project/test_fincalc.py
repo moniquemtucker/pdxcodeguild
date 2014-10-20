@@ -147,3 +147,4 @@ for k, v in monthly_expenses.items():
     for j in v:
         if j[2] == 'mo':
             print j[1]
+
