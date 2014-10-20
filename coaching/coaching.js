@@ -21,4 +21,18 @@ $(document).ready(function(){
         $(this).toggleClass("active-fees-plans-head");
     });
 
+    //testing out tween plugin
+     $(".cartoon-column").hover(function() {
+         $("#image-middle").tween({
+             rotate: {
+                 start: 0,
+                 stop: 30,
+                 time: 0,
+                 duration: 3,
+                 effect: 'easeInOut'
+            }
+         });
+         $.play();
+     });
 });
+

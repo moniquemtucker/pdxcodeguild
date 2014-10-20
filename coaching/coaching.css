@@ -112,7 +112,6 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     font-family: sans-serif;
     font-size: 30px;
     vertical-align: middle;
-    background-color: white;
     padding-top: 50px;
 }
 
@@ -565,3 +564,69 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
         height: 150px;
     }
 }
+/* testing out option 2 */
+#home-headline {
+    height: 320px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cartoon-column {
+    padding-top: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cartoon-column h4 {
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.cartoon-column h5 {
+    padding-top: 30px;
+    font-size: 21px;
+    font-weight: normal;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* home test CSS */
+/*#home-cartoon {*/
+    /*height: 300px;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-variant: small-caps;*/
+    /*background-color: #E6E6E6;*/
+    /*color: #333;*/
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+    /*vertical-align: text-top;*/
+    /*width: 80%;*/
+    /*border-bottom: 2px solid #E6E6E6;*/
+/*}*/
+
+/*.cartoon-column {*/
+    /*width: 90%;*/
+    /*padding: 10px;*/
+    /*margin-top: 30px;*/
+/*}*/
+
+/*.cartoon-column h4 {*/
+    /*padding-bottom: 20px;*/
+    /*height: 100px;*/
+    /*font-weight: 200;*/
+    /*font-size: 24px;*/
+/*}*/
+
+/*.cartoon-image {*/
+    /*height: 110px;*/
+    /*vertical-align: bottom;*/
+/*}*/
+
+/*.cartoon-image img {*/
+    /*height: 60px;*/
+/*}*/
