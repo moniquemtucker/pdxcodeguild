@@ -277,6 +277,7 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
     text-align: left;
     font-size: 18px;
 }
+
 .steps-details {
     text-align: left;
     font-size: 12px;
@@ -564,30 +565,61 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
         height: 150px;
     }
 }
+
+/* testing out option 3 */
+/*#home-headline {*/
+    /*height: 450px;*/
+    /*font-family: 'Libre Baskerville', sans-serif;*/
+    /*color: #333;*/
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.cartoon-column {*/
+    /*padding-top: 50px;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+/*.cartoon-column h4 {*/
+    /*padding-bottom: 5px;*/
+    /*font-size: 36px;*/
+    /*font-weight: normal;*/
+/*}*/
+
+/*.cartoon-column h5 {*/
+    /*padding-top: 5px;*/
+    /*font-size: 17px;*/
+    /*font-weight: normal;*/
+    /*padding-left: 30px;*/
+    /*padding-right: 30px;*/
+    /*width: 80%;*/
+    /*margin: 0 auto;*/
+/*}*/
+
 /* testing out option 2 */
 #home-headline {
     height: 320px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Libre Baskerville', sans-serif;
     color: #333;
     margin: 0 auto;
     text-align: center;
 }
 
 .cartoon-column {
-    padding-top: 30px;
+    padding-top: 50px;
     width: 90%;
     margin: 0 auto;
 }
 
 .cartoon-column h4 {
     padding-bottom: 20px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: normal;
 }
 
 .cartoon-column h5 {
     padding-top: 30px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: normal;
     padding-left: 30px;
     padding-right: 30px;
