@@ -2,10 +2,10 @@ __author__ = 'Monique Tucker'
 import time
 
 """
-WHO OWES WHO??:
-This program reconciles finances for two people to determine who owes who at the end of a month.
+Who Owes Who?:
+This program reconciles finances for two people to determine who owes whom at the end of a month.
 User will enter the names of the expenses, amounts, and who payed-- the program will assume an even split
-and determine who owes who.
+and determine who owes whom.
 
 Future enhancements:
 * Allow user to access current Expense methods
@@ -198,7 +198,7 @@ class Person():
 #main program
 print '\n'
 print '==================================================================================='
-print '                                   WHO OWES WHO??:                                 '
+print '                                   WHO OWES WHO?:                                 '
 print '             A financial tool that reconciles expenses for couples, roommates...   '
 print '                          -- any two people who share finances!                    '
 print '===================================================================================', '\n'
