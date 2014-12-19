@@ -3,10 +3,11 @@
 professional career and life coaching website
 
 ####Technologies used:
-* HTML  
-* CSS
-* Bootstrap
-* jQuery
+* HTML   
+* CSS 
+* Bootstrap 
+* jQuery 
+
 
 
 
