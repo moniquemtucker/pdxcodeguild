@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <title>James Heller - Positive Psychology Coaching</title>
+  <!-- get JQuery -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <!-- get Twitter Bootstrap-->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <!-- font awesome images-->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- my custom tweaks for bootstrap-->
+  <link href='http://fonts.googleapis.com/css?family=Montserrat|Lato|Open+Sans|Droid+Sans|Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
+  <script src="coaching.js" type="text/javascript"></script>
+  <link href="coaching.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<!--left hand header-->
+<!--navigation bar-->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">JAMES HELLER<p>Positive Psychology Coaching</p></a>
+      </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/coaching/careerandlifecoaching.html">Career + Life Coaching</a></li>
+          <li><a href="/coaching/aboutme.html">About</a></li>
+          <li><a href="/coaching/fees.html">Fees</a></li>
+          <li><a href="/coaching/blog.html">Blog</a></li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+      <div id="home-schedule"><a href="/coaching/fees.html">
+          <button type="button" class="btn btn-default btn-lg">free consultation</button></a>
+      </div>
+      <div class="main"> <!--large main picture-->
+        <p>Trying to figure out your career path / Feeling stuck?</p>
+        <p id="pp-caption">Find clarity with positive psychology coaching.</p>
+        <h4><a href="#pp-carousel"><i class="fa fa-chevron-down" id="chevron"></i></a></h4>
+      </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+<!--rotating section -->
+  <div id="pp-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+  <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#pp-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#pp-carousel" data-slide-to="1"></li>
+      <li data-target="#pp-carousel" data-slide-to="2"></li>
+    </ol>
+  <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active" style="width: 50%;">
+        <span><i class="fa fa-leaf"></i></span>
+        <p>What do people who thrive in their lives and careers do differently?</p>
+      </div>
+      <div class="item" style="width: 50%;">
+        <span><i class="fa fa-university"></i></span>
+        <p>Thanks to research from positive psychology, we no longer have to guess.</p>
+      </div>
+      <div class="item" style="width: 50%;">
+        <span><i class="fa fa-line-chart"></i></span>
+        <p>I use proven insights and techniques to help clients attain more clarity, happiness, and success.</p>
+      </div>
+  </div>
+  <!-- Controls -->
+    <a class="left carousel-control" href="#pp-carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#pp-carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div> <!-- Carousel -->
+
+<!--how it works section-->
+  <div class="how_it_works">
+    <h2>HOW IT WORKS</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 home-process-step">
+          <span><i class="fa fa-unlock"></i></span>
+          <h4>Clarifying What You Want</h4>
+          <p> We'll clarify the direction you want to move towards in your life and/or career.</p>
+        </div>
+        <div class="col-sm-6 col-md-4 home-process-step">
+          <span><i class="fa fa-rocket"></i></span>
+          <h4>Leveraging Your Strengths</h4>
+          <p>We'll explore your strengths and resources and how to leverage them.</p>
+        </div>
+        <div class="col-sm-6 col-md-4 home-process-step">
+          <span><i class="fa fa-wrench"></i></span>
+          <h4>Making It Happen</h4>
+          <p> Then we'll create an action plan with manageable steps that will move you in the right direction.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p id="learn-more"><a href="/coaching/careerandlifecoaching.html">Learn More</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer for all pages-->
+  <div class = "container-fluid all-footer">
+    <div class="row">
+      <div class="col-md-8">
+        <h4>Location</h4>
+        <h5>6595 NE Cherry Drive</h5>
+        <h5>Hillsboro, OR 97124</h5>
+        <p> I meet with clients in my Portland office, and with clients from around the world by phone and
+          video conference.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Contact Me</h4>
+        <h5>Email: jfh.215@gmail.com</h5>
+        <h5>Phone: 503.893.4230</h5>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
