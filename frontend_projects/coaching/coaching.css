@@ -518,6 +518,11 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
         height: 100%;
     }
 
+    #footer-middle {
+        margin: 0 auto;
+        text-align: center;
+    }
+
     /*career + life coaching page */
     .steps-mobile {
         width: 100%;
