@@ -6,7 +6,15 @@ professional career and life coaching website
 * HTML   
 * CSS 
 * Bootstrap 
-* jQuery 
+* jQuery
+
+####Concepts included:
+* Responsive design
+
+Please check out: [jamesfarleyheller.com](http://jamesfarleyheller.com) for hosted site
+
+**Migration to CMS in progress...**  
+
 
 
 

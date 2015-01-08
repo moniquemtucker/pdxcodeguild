@@ -7,21 +7,12 @@
     padding-top: 30px;
     height: 100%;
     width: 100%;
-    /*background: url('https://unsplash.com/photos/Ven2CV8IJ5A/download') no-repeat center center fixed;*/
-    background: url('/coaching/images/reservepic.jpg')
+    background: url('/images/reservepic.jpg')
     no-repeat center center fixed;
     background-size: cover;
     color: white;
     margin-bottom: 0;
 }
-/* website for landscape photo: http://www.whatdigitalcamera.com/techniques/darkroom/printing/259763/black-white-printing-tips.html
-URL for landscape: url(http://whatdigitalcamera.media.ipcdigital.co.uk/11133/000000d09/d60d_orh100000w564/-recipe1.jpg)
-URL for binoculars: url(http://spotimg.com/wp-content/uploads/2014/04/Black-And-White-Binoculars-Skyline-Photography-2975.jpg)
-http://blueskyphotography.files.wordpress.com/2010/04/mg_3011.jpg
-vintage landscape w/ photo: http://favim.com/image/67906/
-/coaching/images/vintagelandscape.jpg
-url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Favim.com-67906.jpg)
-*/
 
 .navbar-header {
     height: 80px;
@@ -581,100 +572,3 @@ url(http://favim.com/orig/201106/07/cute-landscape-photo-photography-vintage-Fav
         height: 150px;
     }
 }
-
-/* testing out option 3 */
-/*#home-headline {*/
-    /*height: 450px;*/
-    /*font-family: 'Libre Baskerville', sans-serif;*/
-    /*color: #333;*/
-    /*margin: 0 auto;*/
-    /*text-align: center;*/
-/*}*/
-
-/*.cartoon-column {*/
-    /*padding-top: 50px;*/
-    /*margin: 0 auto;*/
-/*}*/
-
-/*.cartoon-column h4 {*/
-    /*padding-bottom: 5px;*/
-    /*font-size: 36px;*/
-    /*font-weight: normal;*/
-/*}*/
-
-/*.cartoon-column h5 {*/
-    /*padding-top: 5px;*/
-    /*font-size: 17px;*/
-    /*font-weight: normal;*/
-    /*padding-left: 30px;*/
-    /*padding-right: 30px;*/
-    /*width: 80%;*/
-    /*margin: 0 auto;*/
-/*}*/
-
-/* testing out option 2 */
-#home-headline {
-    height: 320px;
-    font-family: 'Libre Baskerville', sans-serif;
-    color: #333;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.cartoon-column {
-    padding-top: 50px;
-    width: 90%;
-    margin: 0 auto;
-}
-
-.cartoon-column h4 {
-    padding-bottom: 20px;
-    font-size: 30px;
-    font-weight: normal;
-}
-
-.cartoon-column h5 {
-    padding-top: 30px;
-    font-size: 20px;
-    font-weight: normal;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 80%;
-    margin: 0 auto;
-}
-
-/* home test CSS */
-/*#home-cartoon {*/
-    /*height: 300px;*/
-    /*font-family: 'Montserrat', sans-serif;*/
-    /*font-variant: small-caps;*/
-    /*background-color: #E6E6E6;*/
-    /*color: #333;*/
-    /*margin: 0 auto;*/
-    /*text-align: center;*/
-    /*vertical-align: text-top;*/
-    /*width: 80%;*/
-    /*border-bottom: 2px solid #E6E6E6;*/
-/*}*/
-
-/*.cartoon-column {*/
-    /*width: 90%;*/
-    /*padding: 10px;*/
-    /*margin-top: 30px;*/
-/*}*/
-
-/*.cartoon-column h4 {*/
-    /*padding-bottom: 20px;*/
-    /*height: 100px;*/
-    /*font-weight: 200;*/
-    /*font-size: 24px;*/
-/*}*/
-
-/*.cartoon-image {*/
-    /*height: 110px;*/
-    /*vertical-align: bottom;*/
-/*}*/
-
-/*.cartoon-image img {*/
-    /*height: 60px;*/
-/*}*/
